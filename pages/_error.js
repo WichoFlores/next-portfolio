@@ -5,7 +5,7 @@ export default ({ status }) => (
     { status ? 
       <p>{`Status ${status} when fetching data`}</p>
       :  
-      <p>Couldn't find that page, sorry!</p>
+      <p>Couldn't find that page, sorry!!</p>
     }
     </Layout>
 )
